@@ -1,0 +1,133 @@
+/* Product Card Global Setup */
+ul {
+    list-style: none;
+    margin: .25rem 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Product Card Containers */
+.docpast-product-card-container {
+    width: 30vw;
+    height: 26vh;
+    background: #d5dddf;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .4);
+    border-radius: .25rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.docpast-product-card-inner-container-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.8rem;
+}
+
+.docpast-product-card-inner-container-2 {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0 0 0 100%;
+    position: relative;
+}
+
+.docpast-product-card-purchase-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Product Card Texts */
+.docpast-product-card-header {
+    color: #1b2727;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+}
+
+/* Product Card Element Adjusment */
+.docpast-product-card-inline-block {
+    display: inline-block;
+}
+
+/* Product Card Slide Texts */
+.docpast-flower-name-slide {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    background: #b2c5b2;
+    margin: .25rem 2rem;
+    padding: .25rem 0;
+    border-radius: .25rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+    font-weight: 400;
+}
+
+/* Product Card Buttons */
+.docpast-card-button {
+    margin: 0 .5rem;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+}
+
+.docpast-buy-now-button {
+    background: #3c5148;
+    color: #b2c5b2;
+}
+
+.docpast-add-to-cart-button {
+    background: #b2c5b2;
+    color: #3c5148;
+}
+
+/* Photo Slide */
+.showing-photos-slide {
+    object-fit: cover;
+}
+
+/* Carousel Buttons */
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    color: #1b2727;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    background: #d5dddf;
+    padding: .25rem .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+
+.carousel-button.prev {
+    left: 4rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
+}
+
+/* Photo Expand Button */
+.expand-photo-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    top: 1rem;
+    right: 1rem;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    background: #d5dddf;
+    padding: .5rem;
+    border-radius: .25rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}

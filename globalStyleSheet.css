@@ -1,0 +1,39 @@
+/* Basic Setup */
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Prompt:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+}
+
+.hand-writing-font {
+    font-family: 'Estonia', cursive;
+}
+
+.relative-element {
+    position: relative;
+}
+
+.absolute-element {
+    position: absolute;
+}
+
+.absolute-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.full-width-element {
+    width: 100%;
+}

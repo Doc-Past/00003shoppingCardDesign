@@ -1,0 +1,22 @@
+/* Landing Section */
+#landing-section {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+.docpast-header-text {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+
+#docpast-text-hw {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.outer-card-container {
+    display: flex;
+    justify-content: center;
+}
